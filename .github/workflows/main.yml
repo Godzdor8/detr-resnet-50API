@@ -23,5 +23,7 @@ jobs:
 
     - name: Run tests
       run: |
+          pwd 
+          ls
           cd detr-resnet-50API
           pytest
